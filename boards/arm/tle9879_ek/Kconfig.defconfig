@@ -1,9 +1,9 @@
 # Copyright (c) 2021 Nordic Semiconductor ASA
 # SPDX-License-Identifier: Apache-2.0
 
-if BOARD_CUSTOM_PLANK
+if BOARD_TLE9879_EK
 
 config BOARD
-	default "custom_plank"
+	default "tle9879_ek"
 
-endif # BOARD_CUSTOM_PLANK
+endif # BOARD_TLE9879_EK

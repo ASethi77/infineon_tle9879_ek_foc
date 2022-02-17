@@ -1,0 +1,17 @@
+# Nordic Semiconductor nRF51 MCU line
+
+# Copyright (c) 2016 Linaro Limited
+# Copyright (c) 2018 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+
+if SOC_SERIES_TLE987X
+
+rsource "./Kconfig.defconfig.tle987*"
+
+config SOC_SERIES
+	default "tle987x"
+
+config NUM_IRQS
+	default 26
+
+endif # SOC_SERIES_NRF51X

@@ -1,0 +1,11 @@
+if SOC_SERIES_TLE9879X
+
+rsource "./Kconfig.defconfig.tle987*"
+
+config SOC_SERIES
+	default "tle987x"
+
+config SRAM_VECTOR_TABLE
+	default y
+
+endif # SOC_SERIES_STM32F0X
